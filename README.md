@@ -1,6 +1,7 @@
 These are best used in Kali Linux
 
-for steganography:
+For steganography:
+
 files in general:
 - exiftool (filename)
 - binwalk -e (filename)
