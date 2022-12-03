@@ -1,12 +1,13 @@
 # **These are best used in Kali Linux**
 
-## **For steganography:**
+## **For steganography and Forensics:**
 
   ### For general files:
     - exiftool (filename)
     - binwalk -e (filename)
     - file (filename)
     - foremost -v filename
+    - cat filename ----{to read executables}
   ### For images:
     - strings filename | grep (stringtosearch)
     - steghide --extract -sf <filename>
