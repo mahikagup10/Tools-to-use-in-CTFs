@@ -12,6 +12,7 @@
     - strings filename | grep (stringtosearch)
     - steghide --extract -sf <filename>
     - zsteg -a <filename.png>
+    - https://www.aperisolve.com/ (all in one steg tool)
     
   ### Useful links:
     - https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/steganography
