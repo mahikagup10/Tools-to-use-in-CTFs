@@ -1,7 +1,10 @@
 # **These are best used in Kali Linux**
 
 ## **Reverse Engineering**
-  ### - https://elfy.io/
+  ### To ananlyse ELF files:
+    - https://elfy.io/
+  ### To dissamble ELF:
+    - https://onlinedisassembler.com/odaweb/
 
 ## **For steganography and Forensics:**
 
