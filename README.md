@@ -24,3 +24,6 @@
   ## **For hashes**
   
   ### - https://hashtoolkit.com/
+  
+  ## **Decode an unidentified encoding**
+  ### - https://2cyr.com/decode/?lang=en
