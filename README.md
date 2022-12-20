@@ -23,6 +23,7 @@
   ### Useful links:
     - https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/steganography
     - https://infosecwriteups.com/beginners-ctf-guide-finding-hidden-data-in-images-e3be9e34ae0d
+    - https://0xrick.github.io/lists/stego/
 
   ### Gcode simulator : https://nraynaud.github.io/webgcode/
   
