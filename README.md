@@ -25,6 +25,7 @@
     - https://infosecwriteups.com/beginners-ctf-guide-finding-hidden-data-in-images-e3be9e34ae0d
     - https://0xrick.github.io/lists/stego/
     - https://d00mfist.gitbooks.io/ctf/content/forensics/data-extraction.html
+    - https://futureboy.us/stegano/decinput.html
 
   ### Gcode simulator : https://nraynaud.github.io/webgcode/
   
