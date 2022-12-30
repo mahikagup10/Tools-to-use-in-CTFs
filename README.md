@@ -20,6 +20,10 @@
     - zsteg -a <filename.png>
     - https://www.aperisolve.com/ (all in one steg tool)
     
+  ### Dictionary attack on zip files:
+    - fcrackzip tool 
+      fcrackzip -u -D -p ~/rockyou.txt ~/zipfilename.zip
+    
   ### Useful links:
     - https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/steganography
     - https://infosecwriteups.com/beginners-ctf-guide-finding-hidden-data-in-images-e3be9e34ae0d
