@@ -41,4 +41,7 @@
   ## **Decode an unidentified encoding**
   ### - https://2cyr.com/decode/?lang=en
   
+  ## **Barcode Reader/Detector **
+  ### - https://products.aspose.app/barcode/recognize#/recognized
+  
  
