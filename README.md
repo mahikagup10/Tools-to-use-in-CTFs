@@ -41,10 +41,10 @@
   ## **Decode an unidentified encoding**
   ### - https://2cyr.com/decode/?lang=en
   
-  ## **Barcode Reader/Detector **
+  ## **Barcode Reader/Detector**
   ### - https://products.aspose.app/barcode/recognize#/recognized
   
-  ## **WEB forensics **
+  ## **WEB forensics**
   ### Wayback machine
     - https://archive.org/web/
   
