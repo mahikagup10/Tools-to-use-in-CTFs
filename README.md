@@ -44,4 +44,8 @@
   ## **Barcode Reader/Detector **
   ### - https://products.aspose.app/barcode/recognize#/recognized
   
+  ## **WEB forensics **
+  ### Wayback machine
+    - https://archive.org/web/
+  
  
