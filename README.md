@@ -48,5 +48,9 @@
   ## **WEB forensics**
   ### Wayback machine
     - https://archive.org/web/
+    
+  ## **OSINT**
+  ### - https://osintframework.com/
+  
   
  
