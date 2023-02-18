@@ -51,6 +51,7 @@
     
   ## **OSINT**
   ### - https://osintframework.com/
+  ### - https://nixintel.info/osint/12-osint-resources-for-e-mail-addresses/
   
   
  
