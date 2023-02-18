@@ -19,18 +19,12 @@
     - steghide --extract -sf <filename>
     - zsteg -a <filename.png>
     - https://www.aperisolve.com/ (all in one steg tool)
+    - https://lukeslytalker.pythonanywhere.com/deepscan
     
   ### Dictionary attack on zip files:
     - fcrackzip tool 
       fcrackzip -u -D -p ~/rockyou.txt ~/zipfilename.zip
     
-  ### Useful links:
-    - https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/steganography
-    - https://infosecwriteups.com/beginners-ctf-guide-finding-hidden-data-in-images-e3be9e34ae0d
-    - https://0xrick.github.io/lists/stego/
-    - https://d00mfist.gitbooks.io/ctf/content/forensics/data-extraction.html
-    - https://futureboy.us/stegano/decinput.html
-    - https://www.dcode.fr/png-chunks
 
   ### Gcode simulator : https://nraynaud.github.io/webgcode/
   
@@ -52,6 +46,16 @@
   ## **OSINT**
   ### - https://osintframework.com/
   ### - https://nixintel.info/osint/12-osint-resources-for-e-mail-addresses/
+  
+  
+  ### Useful links and repos:
+    - https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/steganography
+    - https://infosecwriteups.com/beginners-ctf-guide-finding-hidden-data-in-images-e3be9e34ae0d
+    - https://0xrick.github.io/lists/stego/
+    - https://d00mfist.gitbooks.io/ctf/content/forensics/data-extraction.html
+    - https://futureboy.us/stegano/decinput.html
+    - https://www.dcode.fr/png-chunks
+    - https://github.com/R0B1NL1N/PayloadsAllTheThings
   
   
  
