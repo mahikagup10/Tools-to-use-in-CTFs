@@ -46,6 +46,7 @@
   ## **OSINT**
   ### - https://osintframework.com/
   ### - https://nixintel.info/osint/12-osint-resources-for-e-mail-addresses/
+  ### Googel Dorking: https://infosecwriteups.com/finding-vulnerable-info-using-google-dorks-ethical-hacking-23f358117ceb
   
   
   ### Useful links and repos:
