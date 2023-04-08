@@ -32,6 +32,7 @@
   ## **For hashes**
   
   ### - https://hashtoolkit.com/
+  ### - https://www.cmd5.org/
   
   ## **Decode an unidentified encoding**
   ### - https://2cyr.com/decode/?lang=en
