@@ -60,6 +60,3 @@
     - https://github.com/R0B1NL1N/PayloadsAllTheThings
     - https://shankaraman.wordpress.com/tag/how-to-extract-ftp-files-from-wireshark-packet/#:~:text=Just%20open%20the%20packet%20in,the%20files%20in%20a%20Directory.&text=Firstly%2C%20the%20Client%20(10.10.,request%20to%20the%20Server%20(78.47.
     - ophcrack
-  
-  
- 
