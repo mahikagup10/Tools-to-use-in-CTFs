@@ -14,6 +14,7 @@
     - file (filename)
     - foremost -v filename
     - cat filename ----{to read executables}
+    - stegsnow -C -p '1234' newdos.txt
   ### For images:
     - strings filename | grep (stringtosearch)
     - steghide --extract -sf <filename>
