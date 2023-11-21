@@ -15,17 +15,30 @@
     - foremost -v filename
     - cat filename ----{to read executables}
     - stegsnow -C -p '1234' newdos.txt
+    
   ### For images:
     - strings filename | grep (stringtosearch)
     - steghide --extract -sf <filename>
     - zsteg -a <filename.png>
     - https://www.aperisolve.com/ (all in one steg tool)
     - https://lukeslytalker.pythonanywhere.com/deepscan
+    - pngcheck
+    - sudo apt install ruby
+      sudo gem install zsteg
+      zsteg <filename>
+      (detect LSB steganography only in the case of PNG and BMP images.)
+
+  ### For audio files:
+    - audacity <file_name>
+    - sonic-visualiser <file_name>
     
-  ### Dictionary attack on zip files:
+  ### Password cracking tools:
     - fcrackzip tool 
       fcrackzip -u -D -p ~/rockyou.txt ~/zipfilename.zip
     - john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
+    - stegcracker <file> [<wordlist>]   (used to crack passwords in files which contains hidden data)
+    - sudo apt-get install pdfcrack
+      pdfcrack -f <file_name> -w <location_of_wordlist_file>
     
 
   ### Gcode simulator : https://nraynaud.github.io/webgcode/
