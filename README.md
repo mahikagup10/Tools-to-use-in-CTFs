@@ -25,6 +25,7 @@
   ### Dictionary attack on zip files:
     - fcrackzip tool 
       fcrackzip -u -D -p ~/rockyou.txt ~/zipfilename.zip
+    - john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
     
 
   ### Gcode simulator : https://nraynaud.github.io/webgcode/
