@@ -1,7 +1,7 @@
 # **These are best used in Kali Linux**
 
 ## **Reverse Engineering**
-  ### To ananlyse ELF files:
+  ### To analyze ELF files:
     - https://elfy.io/
   ### To dissamble ELF:
     - https://onlinedisassembler.com/odaweb/
@@ -32,12 +32,13 @@
   ### For audio files:
     - audacity <file_name>
     - sonic-visualiser <file_name>
+    - AudioStego (https://github.com/danielcardeenas/AudioStego)
     
   ##  **Password cracking tools:
     - fcrackzip tool 
       fcrackzip -u -D -p ~/rockyou.txt ~/zipfilename.zip
     - john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
-    - stegcracker <file> [<wordlist>]   (used to crack passwords in files which contains hidden data)
+    - stegcracker <file> [<wordlist>]   (used to crack passwords in files that contain hidden data)
     - sudo apt-get install pdfcrack
       pdfcrack -f <file_name> -w <location_of_wordlist_file>
 
@@ -59,6 +60,15 @@
   ## **WEB forensics**
   ### Wayback machine
     - https://archive.org/web/
+
+  ## **For Web Challenges:**
+    - inspect element
+    - view page source
+    - robots.txt or other directory files (flag.txt)
+    - burpsuite
+    - curl to send or receive data/payload
+    - for sql injection try:
+      abc' OR '1'='1'--
     
   ## **OSINT**
     - https://osintframework.com/
