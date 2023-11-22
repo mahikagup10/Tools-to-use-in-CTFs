@@ -61,10 +61,10 @@
     - https://archive.org/web/
     
   ## **OSINT**
-  ### - https://osintframework.com/
-  ### - https://nixintel.info/osint/12-osint-resources-for-e-mail-addresses/
-  ### - https://www.shodan.io/        (search engine for anything)
-  ### Google Dorking: https://infosecwriteups.com/finding-vulnerable-info-using-google-dorks-ethical-hacking-23f358117ceb
+    - https://osintframework.com/
+    - https://nixintel.info/osint/12-osint-resources-for-e-mail-addresses/
+    - https://www.shodan.io/        (search engine for anything)
+    - Google Dorking: https://infosecwriteups.com/finding-vulnerable-info-using-google-dorks-ethical-hacking-23f358117ceb
   
   
   ### Useful links and repos:
