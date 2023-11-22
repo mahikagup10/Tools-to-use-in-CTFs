@@ -69,6 +69,9 @@
     - curl to send or receive data/payload
     - for sql injection try:
       abc' OR '1'='1'--
+    - in URL, try ?cmd=ls -lrt
+                  ?cmd=cd ..;ls -lrt
+                  ?cmd=cat flag.txt
     
   ## **OSINT**
     - https://osintframework.com/
