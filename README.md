@@ -15,6 +15,7 @@
     - foremost -v filename
     - cat filename ----{to read executables}
     - stegsnow -C -p '1234' newdos.txt
+    - https://futureboy.us/stegano/decinput.html  (jpeg, wav or au)
     
   ### For images:
     - strings filename | grep (stringtosearch)
@@ -32,25 +33,25 @@
     - audacity <file_name>
     - sonic-visualiser <file_name>
     
-  ### Password cracking tools:
+  ##  **Password cracking tools:
     - fcrackzip tool 
       fcrackzip -u -D -p ~/rockyou.txt ~/zipfilename.zip
     - john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
     - stegcracker <file> [<wordlist>]   (used to crack passwords in files which contains hidden data)
     - sudo apt-get install pdfcrack
       pdfcrack -f <file_name> -w <location_of_wordlist_file>
-    
 
+  ## **For hashes**
+    - https://hashtoolkit.com/
+    - https://www.cmd5.org/
+    
   ### Gcode simulator : https://nraynaud.github.io/webgcode/
   
+  ## **Identify/Decode an unidentified encoding**
+    - https://2cyr.com/decode/?lang=en
+    - https://www.dcode.fr/cipher-identifier
+    - https://gchq.github.io/CyberChef/
   
-  ## **For hashes**
-  
-  ### - https://hashtoolkit.com/
-  ### - https://www.cmd5.org/
-  
-  ## **Decode an unidentified encoding**
-  ### - https://2cyr.com/decode/?lang=en
   
   ## **Barcode Reader/Detector**
   ### - https://products.aspose.app/barcode/recognize#/recognized
@@ -62,7 +63,8 @@
   ## **OSINT**
   ### - https://osintframework.com/
   ### - https://nixintel.info/osint/12-osint-resources-for-e-mail-addresses/
-  ### Googel Dorking: https://infosecwriteups.com/finding-vulnerable-info-using-google-dorks-ethical-hacking-23f358117ceb
+  ### - https://www.shodan.io/        (search engine for anything)
+  ### Google Dorking: https://infosecwriteups.com/finding-vulnerable-info-using-google-dorks-ethical-hacking-23f358117ceb
   
   
   ### Useful links and repos:
@@ -80,5 +82,4 @@
     - https://www.yeahhub.com/the-12-best-must-have-tools-for-steganography-updated-tools/
     - https://www.hackingarticles.in/online-message-decoder-spam-maker/
     - https://330k.github.io/misc_tools/unicode_steganography.html
-    - https://www.shodan.io/        (search engine for anything)
     - https://wiki.bi0s.in/
