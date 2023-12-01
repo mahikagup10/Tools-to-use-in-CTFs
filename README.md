@@ -72,6 +72,9 @@
     - in URL, try ?cmd=ls -lrt
                   ?cmd=cd ..;ls -lrt
                   ?cmd=cat flag.txt
+    - try editing cookies (admin = True) [in login challenges]
+    - to modify headers: use curl 
+      ex. curl -H "Host: test.example" http://example.com/
     
   ## **OSINT**
     - https://osintframework.com/
