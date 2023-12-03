@@ -16,6 +16,8 @@
     - cat filename ----{to read executables}
     - stegsnow -C -p '1234' newdos.txt
     - https://futureboy.us/stegano/decinput.html  (jpeg, wav or au)
+    - 0 width chars: https://330k.github.io/misc_tools/unicode_steganography.html
+    - twitter spacing: https://holloway.nz/steg/
     
   ### For images:
     - strings filename | grep (stringtosearch)
@@ -33,11 +35,20 @@
     - audacity <file_name>
     - sonic-visualiser <file_name>
     - AudioStego (https://github.com/danielcardeenas/AudioStego)
+    - Morse code wav files: https://morsecode.world/international/decoder/audio-decoder-expert.html
+
+  ### File Signatures/Magic Numbers:
+    - GIF : 47 49 46 38 39 61 18 01
+    - PNG/IHDR : 89 50 4E 47 0D 0A 1a 0A
     
   ##  **Password cracking tools:
     - fcrackzip tool 
       fcrackzip -u -D -p ~/rockyou.txt ~/zipfilename.zip
     - john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
+      for zip files:
+        first extract zip file hash : zip2john zipfile.zip > hash.txt
+        then use john to crack: john --wordlist=rockyou.txt hash.txt
+    - hashcat: 
     - stegcracker <file> [<wordlist>]   (used to crack passwords in files that contain hidden data)
     - sudo apt-get install pdfcrack
       pdfcrack -f <file_name> -w <location_of_wordlist_file>
@@ -71,10 +82,12 @@
       abc' OR '1'='1'--
     - in URL, try ?cmd=ls -lrt
                   ?cmd=cd ..;ls -lrt
-                  ?cmd=cat flag.txt
+                  ?cmd=cat flag.txt 
     - try editing cookies (admin = True) [in login challenges]
     - to modify headers: use curl 
       ex. curl -H "Host: test.example" http://example.com/
+    - try moving back directories using local file inclusion vulnerability
+    - explore directories : append the url with /../
     
   ## **OSINT**
     - https://osintframework.com/
@@ -99,3 +112,8 @@
     - https://www.hackingarticles.in/online-message-decoder-spam-maker/
     - https://330k.github.io/misc_tools/unicode_steganography.html
     - https://wiki.bi0s.in/
+    - encoding conversion: https://www.rapidtables.com/
+    - hashcat cheatsheet: https://hashcat.net/wiki/doku.php?id=hashcat
+                          https://github.com/frizb/Hashcat-Cheatsheet
+    - lfi cheat sheet https://book.hacktricks.xyz/pentesting-web/file-inclusion
+                      https://highon.coffee/blog/lfi-cheat-sheet/
