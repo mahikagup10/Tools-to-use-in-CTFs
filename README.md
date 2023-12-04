@@ -47,8 +47,7 @@
     - john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
       for zip files:
         first extract zip file hash : zip2john zipfile.zip > hash.txt
-        then use john to crack: john --wordlist=rockyou.txt hash.txt
-    - hashcat: 
+        then use john to crack: john --wordlist=rockyou.txt hash.txt 
     - stegcracker <file> [<wordlist>]   (used to crack passwords in files that contain hidden data)
     - sudo apt-get install pdfcrack
       pdfcrack -f <file_name> -w <location_of_wordlist_file>
@@ -56,6 +55,10 @@
   ## **For hashes**
     - https://hashtoolkit.com/
     - https://www.cmd5.org/
+    - hashid - to identify the type of hash
+    - www.crackstation.net
+    - hashcat: hashcat -m <mode_number> -O hash.txt <wordlist>
+      https://hashcat.net/wiki/doku.php?id=example_hashes
     
   ### Gcode simulator : https://nraynaud.github.io/webgcode/
   
@@ -76,6 +79,7 @@
     - inspect element
     - view page source
     - robots.txt or other directory files (flag.txt)
+    - check network (in inspect element) for any reloads/redirects
     - burpsuite
     - curl to send or receive data/payload
     - for sql injection try:
@@ -88,6 +92,8 @@
       ex. curl -H "Host: test.example" http://example.com/
     - try moving back directories using local file inclusion vulnerability
     - explore directories : append the url with /../
+    - try checking for files like: /.git
+    - to get all directories: wget -m <URL>
     
   ## **OSINT**
     - https://osintframework.com/
@@ -117,3 +123,4 @@
                           https://github.com/frizb/Hashcat-Cheatsheet
     - lfi cheat sheet https://book.hacktricks.xyz/pentesting-web/file-inclusion
                       https://highon.coffee/blog/lfi-cheat-sheet/
+    - search for vulnerabilities and exploits: https://book.hacktricks.xyz/welcome/readme
