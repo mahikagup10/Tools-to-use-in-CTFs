@@ -46,6 +46,7 @@
       fcrackzip -u -D -p ~/rockyou.txt ~/zipfilename.zip
     - john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crack.txt
       for zip files:
+        store the hash in a text file hash.txt
         first extract zip file hash : zip2john zipfile.zip > hash.txt
         then use john to crack: john --wordlist=rockyou.txt hash.txt 
     - stegcracker <file> [<wordlist>]   (used to crack passwords in files that contain hidden data)
@@ -57,7 +58,9 @@
     - https://www.cmd5.org/
     - hashid - to identify the type of hash
     - www.crackstation.net
-    - hashcat: hashcat -m <mode_number> -O hash.txt <wordlist>
+    - hashcat: 
+      store the hash in a text file hash.txt
+      hashcat -m <mode_number> -O hash.txt <wordlist>
       https://hashcat.net/wiki/doku.php?id=example_hashes
     
   ### Gcode simulator : https://nraynaud.github.io/webgcode/
