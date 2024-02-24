@@ -138,3 +138,4 @@
                       https://highon.coffee/blog/lfi-cheat-sheet/
     - search for vulnerabilities and exploits: https://book.hacktricks.xyz/welcome/readme
     - extract text from images: tesseract: tesseract -l eng <imagefile> output.txt
+    - secret messages - https://holloway.nz/steg/
