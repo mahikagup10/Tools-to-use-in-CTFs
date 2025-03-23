@@ -5,6 +5,7 @@
     - https://elfy.io/
   ### To dissamble ELF:
     - https://onlinedisassembler.com/odaweb/
+    - decompiler: https://dogbolt.org/
 
 ## **For steganography and Forensics:**
 
